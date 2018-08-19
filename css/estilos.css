@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	background: #5b7989;
+	width: 100%;
+	height: 80px;
+	border-radius: 10px 10px 0px 0px;
+	color: white;
+}
+header > h1{
+	text-shadow: 2px 2px #02010a;
+	margin-left: 0.5%;
+	display: inline-block;
+}
+
+nav{
+	display: inline;
+	float: right;
+	margin: 0.5% 0.5% 0px 0px;
+}
+
+nav a{
+	color: white;
+}
+
+footer a{
+	color: black;
+}
+
+#imgcentral {
+	background-color: #82c3a6;
+	width: 100%;
+	text-align: center;
+}
+
+#imgsecundarias{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	background: #d5c75f;
+	border: solid 1px black;
+	width: 100%;
+}
+
+#imgsecundarias > div {
+	text-align: center;
+	padding: 1%;
+	width: 47%;
+}
+img{
+	border: solid 1px black;
+	box-shadow: 2px 2px #02010a;
+}
+
+.adaptativa-porcentaje{
+	margin: 1%;
+	width: 50%;
+}
+
+.adaptativa-porcentaje-1{
+	margin: 1%;
+	width: 60%;
+}
+
+.adaptativa-porcentaje-2{
+	width: 10%;
+}
+
+.adaptativa-porcentaje-3{
+	width: 90%;
+}
+
+#imgsecundarias #secundaria1 img:hover{
+	border: solid 1px #82c3a6;
+	box-shadow: 2px 2px #82c3a6;
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+
+#imgsecundarias #secundaria2 img:hover{
+	border: solid 1px #82c3a6;
+	box-shadow: 2px 2px #82c3a6;
+	-webkit-transform: translate(20px, -5px);
+	transform: translate(20px, -5px);
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	border-radius: 0px 0px 10px 10px;
+	background: #C6d5c5;
+}
+
+footer .piepagina{
+	display: flex;
+	flex-direction: row;
+}
+
+footer .piepagina > div {
+	text-align: center;
+	padding: 10px;
+	width: 25%;
+}
+
+body{
+	font-family: 'Dancing Script';
+	background: #02010a;
+	animation: miAnimacion 1.5s;
+}
+@-webkit-keyframes miAnimacion{
+	
+	0%{
+		margin-top: 150%;
+	}
+	
+	60%{
+		margin-top: -5%;
+	}
+	100%{
+		margin-top: 0%;
+	}
+}
+
+#galeria{
+	background: #d5c75f;
+}
+#galeriafila1{
+	display: flex;
+	flex-direction: row;
+}
+#galeriafila1 > div {
+	text-align: center;
+	padding: 0.5%;
+	width: 33%;
+}
+#galeriafila2{
+	display: flex;
+	flex-direction: row;
+}
+#galeriafila2 > div {
+	text-align: center;
+	padding: 0.5%;
+	width: 33%;
+}
+.imgp1{
+	filter: blur(10px);
+}
+.imgp2{
+	filter: grayscale(100%);
+}
+.imgp3{
+	filter: sepia(90%);
+}
